@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main_container {
+    border: 4px dashed rgb(250,0,0);
+    width: 98%;
+    height: 98vh;
+    margin: auto;
+    background-color: rgb(170, 170,170);
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1px solid rgb(250,0,0);
+}
+
+.block_1-2 {
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-top: 10px;
+    margin-bottom: -120px;
+} 
+
+.blk_red {
+    width: 30%;
+    height: 50%;
+    text-align: center;
+}
+
+.blk_red_colored {
+    border: 5px solid rgb(250, 0, 0);
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.red_text, .gr_text {
+    margin-top: 10px;
+}
+
+.blk_green {
+    width: 30%;
+    height: 50%;
+    text-align: center;
+}
+
+.blk_green_colored {
+    border: 5px solid rgb(0,250,0);
+    background-color: rgb(0,255,0);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.plus_minus_1-2_red, .plus_minus_1-2_gr, .plus_minus_3-4_bl, .plus_minus_3-4_all {
+    margin-top: 10px;
+}
+
+.btn_plus_3-4_all, .btn_minus_3-4_all, .btn_plus_gr_1-2, .btn_minus_gr_1-2, .btn_plus_blue_1-2, .btn_minus_blue_1-2, .btn_plus_red_1-2, .btn_minus_red_1-2, .btn_plus_red_3-4, .btn_minus_red_3-4, .btn_plus_gr_3-4, .btn_minus_gr_3-4 {
+    width: 25px;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn_plus_3-4_all, .btn_minus_3-4_all {
+    width: 110px;
+    height: 26px;
+    font-size: 12px;
+}
+
+.block_3-4 {
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-top: 1px;
+}
+
+.blk_blue {
+    width: 30%;
+    height: 50%;
+    text-align: center;
+}
+
+.blk_blue_colored {
+    border: 5px solid rgb(0, 0, 250);
+    background-color: rgb(0,0,255);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.blue_text, .all_text {
+    margin-top: 10px;
+}
+
+.blk_all {
+    width: 30%;
+    height: 50%;
+    text-align: center;
+}
+
+.blk_all_colored {
+    border: 5px solid rgb(0,0,0);
+    background-color: rgb(0,0,0);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
